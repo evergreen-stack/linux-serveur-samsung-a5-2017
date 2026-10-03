@@ -1,0 +1,8 @@
+release/*
+!release/verification.json
+!release/CONTENU-ZIP.txt
+!release/paquets-installes.txt
+apk-wifi/*.apk
+__pycache__/
+*.pyc
+*.bundle

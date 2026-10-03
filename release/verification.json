@@ -1,0 +1,15 @@
+{
+  "zip": "linux-serveur-samsung-a5-2017-v1.zip",
+  "taille_octets": 119414625,
+  "sha256": "8fbafe4c03c8cadfe79c067fcff5d96f6b3eaa9b09436dbcd631a587d068b681",
+  "cible": "samsung-a5y17lte",
+  "noyau": "3.18.140-r3",
+  "crc_zip": "OK",
+  "installer": "postmarketOS recovery installer 1.0.7 + garde modèle/partitions",
+  "ajouts": "tableau, menu, Home, evdev, veille 300 s, Wi-Fi/D-Bus, SSH, français, Europe/Paris, chrony",
+  "apk_wifi_hors_ligne": 50,
+  "comptes": "user et root verrouillés, choisir son mot de passe dans TWRP",
+  "secrets": "Aucun profil Wi-Fi, mot de passe de compte, clé SSH personnelle/hôte, historique, journal ou sauvegarde dans le rootfs",
+  "boot_sha256": "412d51c4d9397c1dd7ef01d0c47b1093cb0909cee8ac852147b03d28a2667e75",
+  "validation_materielle": "Base/correctifs essayés sur A5 ; ZIP de distribution à réinstaller pour validation matérielle complète"
+}
