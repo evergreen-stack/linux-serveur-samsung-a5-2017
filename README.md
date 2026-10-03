@@ -43,3 +43,7 @@ Les scripts et correctifs sont dans `src/` et `scripts/`. Les APKBUILD du port s
 Le dépôt GitHub contient les sources, guides et aperçus. Les gros binaires de `release/` et `apk-wifi/` sont exclus de l’historique Git et fournis dans la [release v1.0.0](https://github.com/evergreen-stack/linux-serveur-samsung-a5-2017/releases/tag/v1.0.0).
 
 Les composants tiers conservent leurs licences : noyau GPL-2.0, recovery installer GPL-3.0-or-later, port et firmware selon leurs métadonnées, TWRP selon ses licences propres. Voir `LICENCES.md`.
+
+## Correctif du délai de démarrage Wi-Fi
+
+Un [correctif séparé et réversible](docs/CORRECTIF-DEMARRAGE-WIFI.md) réduit de 60 à 5 secondes l’attente de secours des firmwares absents. Voir [le script](scripts/corriger-attente-wifi-a5.sh) pour l’installation sur le téléphone. Le gain au prochain démarrage reste à mesurer. Les ZIP v1.0.0 publiés ne sont pas reconstruits.
